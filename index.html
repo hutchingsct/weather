@@ -1,10 +1,16 @@
 <HTML>
-<HEAD><META HTTP-EQUIV="REFRESH" CONTENT="3600"></HEAD>
-<BODY BGCOLOR="#271A2A">
-<TABLE ALIGN=center BORDER CELLPADDING=10>
-<TR>
-<TD><IFRAME SRC="https://tempestwx.com/station/84685/" HEIGHT=1000 WIDTH=750></IFRAME></TD>
-<TD><IFRAME SRC="https://tempestwx.com/station/84685/grid" HEIGHT=1000 WIDTH=750></IFRAME></TD>
-/TR>
-</TABLE>
-</BODY></HTML>
+  <HEAD><META HTTP-EQUIV="REFRESH" CONTENT="3600"></HEAD>
+  <STYLE>
+    #left, #right {
+      width: 40%;
+    }
+  </STYLE>
+  <BODY BGCOLOR="#271A2A">
+    <TABLE ALIGN=center BORDER CELLPADDING=10>
+      <TR>
+        <TD><IFRAME SRC="https://tempestwx.com/station/84685/" HEIGHT=1000 ID="left"></IFRAME></TD>
+        <TD><IFRAME SRC="https://tempestwx.com/station/84685/grid" HEIGHT=1000 ID="right"></IFRAME></TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>
